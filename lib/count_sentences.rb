@@ -5,7 +5,7 @@ class String
   def sentence?
     return self.split('').last === '.'
   end
-
+    
   def question?
 
   end
