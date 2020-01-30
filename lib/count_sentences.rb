@@ -7,11 +7,11 @@ class String
   end
     
   def question?
-    
+    return self.split('').last === '?'
   end
 
   def exclamation?
-
+    return self.split('').last === '!'
   end
 
   def count_sentences
