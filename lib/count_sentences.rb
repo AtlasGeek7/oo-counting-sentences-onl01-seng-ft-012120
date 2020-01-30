@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    return self.last === '.'
+    return self.split('').last === '.'
   end
 
   def question?
